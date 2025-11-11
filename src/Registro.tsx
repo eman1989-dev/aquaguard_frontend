@@ -21,7 +21,7 @@ function Registro() {
     const datos = { nombre, apellido1, apellido2, correo, telefono, clave };
 
     try {
-      const resp = await fetch("http://https://backend-33tq.onrender.com/api/usuarios", {
+      const resp = await fetch("https://backend-33tq.onrender.com/api/usuarios", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(datos),

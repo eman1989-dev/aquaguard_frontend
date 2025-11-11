@@ -11,7 +11,7 @@ function CountdownTimer({ userId }: CountdownTimerProps) {
   const [endDate, setEndDate] = useState<Date | null>(null);
   const [timeLeft, setTimeLeft] = useState<string>("");
 
-  const API_URL = "http://https://backend-33tq.onrender.com/api/timers";
+  const API_URL = "https://backend-33tq.onrender.com/api/timers";
 
   const calculateTimeLeft = (end: Date) => {
     const now = new Date();

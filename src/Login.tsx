@@ -18,7 +18,7 @@ function Login({ onLoginSuccess }: LoginProps) {
     const datos = { correo, clave };
 
     try {
-      const resp = await fetch("http://https://backend-33tq.onrender.com/api/usuarios/login", {
+      const resp = await fetch("https://backend-33tq.onrender.com/api/usuarios/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(datos),
