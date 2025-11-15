@@ -11,7 +11,7 @@ function Productos() {
     {
       nombre: "Pastillas de carbón activado",
       img: Pastillas,
-      desc: "Pieza fundamental para el funcionamiento del filtro de agua doméstico. Esta se debe reemplazar cada 90 días.",
+      desc: "Pieza fundamental para el funcionamiento del filtro de agua doméstico. Esta se debe reemplazar cada 22 días.",
     },
   ];
 
